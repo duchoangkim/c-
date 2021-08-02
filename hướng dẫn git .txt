@@ -30,6 +30,12 @@ nhấn chuột phải vào vùng trống và chịn git bash here.
 4. Lấy code mới từ github về
 	git pull origin master
 
+5. thay đổi repo
+6. tìm hiều về branch, thêm xóa branch
+7 merge git .
+
+
+
 
 
 
