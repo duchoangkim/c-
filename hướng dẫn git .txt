@@ -1,0 +1,43 @@
+- git init:   khởi tạo thư mục git ( local repository )
+-git status: xem trạng thái thư mục
+
+- git add:    thêm phần vừa chỉnh sửa vào cái local reponsitory
+
+- git commit :  đấy phần vừa chỉnh sửa lên loacl reponsitory
+
+
+- git push:  đẩy phần chỉnh sửa lên remote reponsitory
+
+Cách sử dụng chi tiết:
+
+Mở folder mình làm việc ra
+nhấn chuột phải vào vùng trống và chịn git bash here.
+
+1. Khởi tạo: 
+	git init 
+	git add .
+	git commit -m "khoi tao"
+	git remote add origin "link git repository"
+	git push origin master
+
+2. Đẩy code mình vừa chỉnh sửa lên github
+	git add .
+	git commit -m "ly do chinh sua"
+	git push origin master
+3. clone code của bạn bè về
+	git clone "link repository của bạn bè"
+
+4. Lấy code mới từ github về
+	git pull origin master
+
+
+
+
+
+
+
+
+
+
+
+tạo project/ clone project -> code -> đẩy code lên remote -> lấy code mới về -> code -> đẩy code mới lên -> lấy code mới về.
